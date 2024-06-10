@@ -65,7 +65,7 @@ export const Header = ({ scrollRefs }) => {
 
 
   return (
-    <animated.section ref={ref}  className=' fixed top-0 md:relative w-full z-50 h-auto bg-black font-press-start flex items-center justify-between xl:justify-start p-0 xl:py-[5px] xl:px-[40px]'>
+    <animated.section ref={ref}  className=' fixed top-0 md:relative w-full z-50 h-auto bg-[#080831] font-press-start flex items-center justify-between xl:justify-start p-0 xl:py-[5px] xl:px-[40px]'>
       <Link className='xl:w-[35%]' to="/">
         <animated.img style={fadeNavigation} src={logo} className=' w-[95px] h-[70px] md:h-auto md:w-[100px]' alt="" />
       </Link>

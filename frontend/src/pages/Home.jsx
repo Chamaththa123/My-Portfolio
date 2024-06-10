@@ -37,10 +37,6 @@ export const Home = () => {
               scrollRefs={scrollRefs}
               
             />
-            <Footer
-              scrollRefs={scrollRefs}
-           
-            />
           </>)
       }
     </>
