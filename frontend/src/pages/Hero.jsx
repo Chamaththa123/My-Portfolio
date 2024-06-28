@@ -89,7 +89,7 @@ const Hero = ({ scrollRefs }) => {
           Let's Talk
         </animated.button> */}
 
-        <div className="md:w-[55%]">
+        <div className="md:w-[50%]">
           <div className="pb-5">
             <div class="flex items-center gap-4">
               <div class="social-button">
@@ -252,7 +252,7 @@ const Hero = ({ scrollRefs }) => {
           </div>
           <animated.div style={fadeTitle}>
             <div className="text-white text-[30px] pt-5 font-normal">Hi , I am</div>
-            <div className="text-[65px] font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+            <div className="text-[60px] font-bold bg-gradient-to-r  from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
   Chamaththa Shamod
 </div>
 
