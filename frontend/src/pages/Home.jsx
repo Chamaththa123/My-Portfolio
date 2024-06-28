@@ -3,7 +3,7 @@ import { Header } from "../components/layouts/Header";
 import { Footer } from "../components/layouts/Footer";
 import { Loader } from "../components/Loader";
 import NavigationContext from "../context/NavigationContext";
-
+import Hero from "./Hero";
 
 export const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -18,8 +18,7 @@ export const Home = () => {
     fetchData();
   }, []);
 
-
-  const scrollRefs = useContext(NavigationContext)
+  const scrollRefs = useContext(NavigationContext);
 
   const handleScrollToSections = (scrollRefs) => {
     if (scrollRefs.current) {
@@ -28,18 +27,14 @@ export const Home = () => {
   };
   return (
     <>
-      {
-        loading ? (
-          <Loader />
-        ) : (
-          <>
-            <Header
-              scrollRefs={scrollRefs}
-              
-            />
-          </>)
-      }
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Header scrollRefs={scrollRefs} />
+          <Hero scrollRefs={scrollRefs} />
+        </>
+      )}
     </>
-
   );
 };
