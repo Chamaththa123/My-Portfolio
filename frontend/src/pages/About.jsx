@@ -43,28 +43,66 @@ const About = ({ scrollRefs }) => {
             <div className="p-4">
               {activeTab === 0 && (
                 <div>
-                  {Education.map((education, index) => (
-                    <div
-                      className="w-[100%] rounded-lg shadow my-5"
-                      style={{
-                        backdropFilter: "blur(10px)",
-                        background: "rgba(255, 255, 255, 0.03)",
-                        border: "1px solid rgba(255, 255, 255, 0.2)",
-                      }}
-                    >
-                      <div className="flex">
-                        <div className="w-[30%]">
-                          <img src={education.img}  alt="University Logo" className="w-25 h-20 rounded-lg p-2"/>
+                  <div
+                    className="w-[100%] rounded-lg shadow my-5"
+                    style={{
+                      backdropFilter: "blur(10px)",
+                      background: "rgba(255, 255, 255, 0.03)",
+                      border: "1px solid rgba(255, 255, 255, 0.2)",
+                    }}
+                  >
+                      <div className="w-full text-white p-5">
+                        <div>
+                          <li className="font-semibold">Kg/Swarna Jayanthi National College</li>
                         </div>
-                        <div className="w-[70%]">
-                          <span>{education.des}</span>
+                        <div className="ml-[10%] mt-2 text-[15px]">
+                          G.C.E Ordinary Level - 2016 <br />
+                          G.C.E Advanced Level( Biology, Physics, Chemistry) -
+                          2020
                         </div>
-                      </div>
                     </div>
-                  ))}
+                  </div>
+
+                  <div
+                    className="w-[100%] rounded-lg shadow my-5"
+                    style={{
+                      backdropFilter: "blur(10px)",
+                      background: "rgba(255, 255, 255, 0.03)",
+                      border: "1px solid rgba(255, 255, 255, 0.2)",
+                    }}
+                  >
+                      <div className="w-full text-white p-5">
+                        <div>
+                          <li className="font-semibold">Sri Lanka Institute of Information Technology</li>
+                        </div>
+                        <div className="ml-[10%] mt-2 text-[15px]">
+                        BSc (Hons) Degree in Information Technology Specializing in Software
+                        Engineering ( 2021 - Present )
+                        </div>
+                    </div>
+                  </div>
                 </div>
               )}
-              {activeTab === 1 && <div>Content for Tab 2</div>}
+              {activeTab === 1 && <div>
+                <div
+                    className="w-[100%] rounded-lg shadow my-5"
+                    style={{
+                      backdropFilter: "blur(10px)",
+                      background: "rgba(255, 255, 255, 0.03)",
+                      border: "1px solid rgba(255, 255, 255, 0.2)",
+                    }}
+                  >
+                      <div className="w-full text-white p-5">
+                        <div>
+                          <li className="font-semibold">
+                          Software Engineer Intern - Optimize Solutions</li>
+                        </div>
+                        <div className="ml-[10%] mt-2 text-[15px]">
+                        Full-time ( Jan 2024 - Present )
+                        </div>
+                    </div>
+                  </div>
+                </div>}
             </div>
           </div>
         </div>

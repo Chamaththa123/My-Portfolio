@@ -5,6 +5,7 @@ import { Loader } from "../components/Loader";
 import NavigationContext from "../context/NavigationContext";
 import Hero from "./Hero";
 import About from "./About";
+import Contact from "./Contact";
 
 export const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -35,6 +36,7 @@ export const Home = () => {
           <Header scrollRefs={scrollRefs} />
           <Hero scrollRefs={scrollRefs} />
           <About scrollRefs={scrollRefs}/>
+          <Contact />
         </>
       )}
     </>

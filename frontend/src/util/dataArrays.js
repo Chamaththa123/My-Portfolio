@@ -48,7 +48,7 @@ export const Education = [
   {
     img: Education01,
     des: "Kg/Swarna Jayanthi National College",
-    year: "2010 - 2019"
+    details: "G.C.E Ordinary Level - 2016 <br/>G.C.E Advanced Level( Biology, Physics, Chemistry) - 2020"
   },
   {
     img: Education02,
