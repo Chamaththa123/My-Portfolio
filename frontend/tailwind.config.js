@@ -7,13 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "inter":['Roboto', 'sans-serif'],
-      },
-      backdropBlur: {
-        xs: '2px',
-      },
-      colors: {
-        'glass-bg': 'rgba(255, 255, 255, 0.2)',
+        "roboto":['Roboto', 'sans-serif'],
+        'raleway':['Open Sans', 'sans-serif'],
       },
     },
   },

@@ -63,32 +63,14 @@ const Hero = ({ scrollRefs }) => {
     sectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  const sentences = [
-    "Web Developer",
-    "Mobile App Developer",
-  ];
+  const sentences = ["Web Developer", "Mobile App Developer"];
 
   return (
     <section
-      className="overflow-hidden w-full xl:h-screen h-[80vh] relative  bg-[#000319]  font-inter"
+      className="overflow-hidden w-full xl:h-screen h-[80vh] relative  bg-[#000319]  font-roboto"
       ref={ref}
     >
-      {/* <div className=' hero-overlay bg-gradient-to-t from-[#110F1B] to-[#00000052]'></div> */}
-      {/* <img src={hero} className=' w-full xl:h-screen h-[80vh] object-cover' alt="" /> */}
       <div className="w-full xl:h-screen h-[80vh] flex px-[5%] items-center">
-        {/* <animated.div style={fadeTitle} className="text-white xl:text-[90px] text-center text-5xl xl:leading-[100px] leading-[60px]  font-bold pt-20 md:pt-0 ">
-          Discover Drive
-          <br />
-          <span className="text-rose-500  ">Worthy </span>
-          Deals
-        </animated.div>
-        <animated.div style={fadeDes} className="text-center text-white xl:text-3xl text-xl font-semibold leading-[45px]">
-          Dive into Exceptional Deals<br />on Pre-Owned Cars!
-          </animated.div>
-        <animated.button style={fadeDes}  onClick={() => handleNavigateToSection(scrollRefs.contact)} to="/" className='px-[25px] py-[15px] md:px-[20px] md:py-[10px] rounded-[10px] border-2 border-theme-color hover:bg-theme-color  text-white xl:text-xl text-base font-semibold'>
-          Let's Talk
-        </animated.button> */}
-
         <div className="md:w-[50%]">
           <div className="pb-5">
             <div class="flex items-center gap-4">
@@ -251,21 +233,26 @@ const Hero = ({ scrollRefs }) => {
             </div>
           </div>
           <animated.div style={fadeTitle}>
-            <div className="text-white text-[30px] pt-5 font-normal">Hi , I am</div>
-            <div className="text-[60px] font-bold bg-gradient-to-r  from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
-  Chamaththa Shamod
-</div>
-
-            <div className="text-white flex gap-5 text-[30px] font-normal">
-              I am <span className="font-semibold"><TypingEffect
-            sentences={sentences}
-            speed={100}
-            eraseSpeed={50}
-            delayBetweenSentences={1000}
-            delayBeforeErase={2000}
-          /></span>
+            <div className="text-white text-[30px] pt-5 font-light">
+              Hi , I am
             </div>
-            <div className="text-white text-[19px] w-[80%] font-light py-16 pb-8">
+            <div className="text-[64px] font-inter font-bold bg-gradient-to-r  from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+              Chamaththa Shamod
+            </div>
+
+            <div className="text-white flex gap-5 text-[30px] font-light">
+              I am{" "}
+              <span className="font-medium">
+                <TypingEffect
+                  sentences={sentences}
+                  speed={100}
+                  eraseSpeed={50}
+                  delayBetweenSentences={1000}
+                  delayBeforeErase={2000}
+                />
+              </span>
+            </div>
+            <div className="text-white text-[18px] w-[80%] font-light py-16 pb-8">
               Welcome to my online portfolio! Scroll down to discover more about
               me.
             </div>
