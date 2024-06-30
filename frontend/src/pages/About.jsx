@@ -15,7 +15,7 @@ const About = ({ scrollRefs }) => {
       <div className="flex">
         <div className="w-[50%]">dsvdsv</div>
         <div className="w-[50%]">
-          <div className="text-white text-[40px] font-inter font-bold">
+          <div className="text-white text-[40px] font-roboto font-bold">
             About Me
           </div>
           <div className="text-white text-[17px] font-light leading-8 py-3">
