@@ -25,11 +25,11 @@ const About = ({ scrollRefs }) => {
             and responsive web applications.
           </div>
           <div>
-            <div className="flex pt-5">
+            <div className="flex items-center justify-center w-[50%] mx-[25%] gap-5 pt-5">
               {tabs.map((tab, index) => (
                 <button
                   key={index}
-                  className={`flex-1 py-2 px-4 text-center font-semibold w-20 rounded-full border mx-[12%] ${
+                  className={`flex-1 py-2 px-4 text-center font-semibold w-10 rounded-full border ${
                     activeTab === index
                       ? "border-[#5924a8] bg-[#5924a8] text-white shadow-md shadow-[#8f68c9]"
                       : " border-[#5924a8] text-[#5924a8] "

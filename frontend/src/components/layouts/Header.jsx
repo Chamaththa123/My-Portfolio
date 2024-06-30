@@ -70,11 +70,11 @@ export const Header = ({ scrollRefs }) => {
         <animated.img style={fadeNavigation} src={logo} className=' w-[95px] h-[70px] md:h-auto md:w-[100px]' alt="" />
       </Link>
       <animated.div style={fadeNavigation} className='hidden xl:flex w-[35%]  justify-between'>
-        <div className="nav-item cursor-pointer text-right text-white text-[18px] font-medium">Home</div>
-        <div onClick={() => handleNavigateToSection(scrollRefs.aboutUs)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-medium">About Me</div>
-        <div onClick={() => handleNavigateToSection(scrollRefs.services)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-medium">Skill</div>
-        <div onClick={() => handleNavigateToSection(scrollRefs.services)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-medium">Projects</div>
-        <div onClick={() => handleNavigateToSection(scrollRefs.contact)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-medium">Contact</div>
+        <div className="nav-item cursor-pointer text-right text-white text-[18px] font-normal">Home</div>
+        <div onClick={() => handleNavigateToSection(scrollRefs.aboutUs)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-normal">About Me</div>
+        <div onClick={() => handleNavigateToSection(scrollRefs.services)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-normal">Skill</div>
+        <div onClick={() => handleNavigateToSection(scrollRefs.services)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-normal">Projects</div>
+        <div onClick={() => handleNavigateToSection(scrollRefs.contact)} className="nav-item cursor-pointer text-center text-white text-[18px]  font-normal">Contact</div>
 
       </animated.div>
       <Link className='xl:w-[6%]' to="/">
