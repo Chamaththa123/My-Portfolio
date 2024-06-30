@@ -78,6 +78,16 @@ export const projects = [
     des: "Sri Lanka Institute of Information Technology",
     year: "2021 - Present"
   },
+  {
+    img: Education02,
+    des: "Sri Lanka Institute of Information Technology",
+    year: "2021 - Present"
+  },
+  {
+    img: Education02,
+    des: "Sri Lanka Institute of Information Technology",
+    year: "2021 - Present"
+  },
 ];
 // export const brands = [
 //   { img: bmw },
