@@ -57,6 +57,28 @@ export const Education = [
   },
 ];
 
+export const projects = [
+  {
+    img: Education01,
+    des: "Kg/Swarna Jayanthi National College",
+    details: "G.C.E Ordinary Level - 2016 <br/>G.C.E Advanced Level( Biology, Physics, Chemistry) - 2020"
+  },
+  {
+    img: Education02,
+    des: "Sri Lanka Institute of Information Technology",
+    year: "2021 - Present"
+  },
+  {
+    img: Education01,
+    des: "Kg/Swarna Jayanthi National College",
+    details: "G.C.E Ordinary Level - 2016 <br/>G.C.E Advanced Level( Biology, Physics, Chemistry) - 2020"
+  },
+  {
+    img: Education02,
+    des: "Sri Lanka Institute of Information Technology",
+    year: "2021 - Present"
+  },
+];
 // export const brands = [
 //   { img: bmw },
 //   { img: honda },
