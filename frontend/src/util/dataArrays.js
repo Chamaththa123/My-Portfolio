@@ -1,15 +1,3 @@
-// import bmw from "./../assets/images/brands/bmw.webp";
-// import honda from "./../assets/images/brands/honda.webp";
-// import isuzu from "./../assets/images/brands/isuzu.webp";
-// import suzuki from "./../assets/images/brands/suzuki.webp";
-// import mitsubishi from "./../assets/images/brands/mitsubishi.webp";
-// import mazda from "./../assets/images/brands/mazda.webp";
-// import nissan from "./../assets/images/brands/nissan.webp";
-// import toyota from "./../assets/images/brands/toyota.webp";
-
-// import galleryOne from "./../assets/images/gallery/gallery-1.jpg";
-// import galleryTwo from "./../assets/images/gallery/gallery-2.jpg";
-// import galleryThree from "./../assets/images/gallery/gallery-3.jpg";
 import Education01 from "../assets/images/education/school.jpg";
 import Education02 from "../assets/images/education/sliit.jpg";
 
@@ -46,9 +34,9 @@ export const footerServices = [
 
 export const Education = [
   {
-    img: Education01,
-    des: "Kg/Swarna Jayanthi National College",
-    details: "G.C.E Ordinary Level - 2016 <br/>G.C.E Advanced Level( Biology, Physics, Chemistry) - 2020"
+    img: 'https://firebasestorage.googleapis.com/v0/b/test-reactnative-9bda1.appspot.com/o/1.PNG?alt=media&token=b324a49c-14ea-4dd1-808e-9ddba00eb9d8',
+    title: "CodeSense - Static Code Analyzer",
+    technology: "React Js, Node js, MongoDB"
   },
   {
     img: Education02,
@@ -59,46 +47,42 @@ export const Education = [
 
 export const projects = [
   {
-    img: Education01,
-    des: "Kg/Swarna Jayanthi National College",
-    details: "G.C.E Ordinary Level - 2016 <br/>G.C.E Advanced Level( Biology, Physics, Chemistry) - 2020"
+    img: 'https://firebasestorage.googleapis.com/v0/b/test-reactnative-9bda1.appspot.com/o/1.PNG?alt=media&token=b324a49c-14ea-4dd1-808e-9ddba00eb9d8',
+    title: "CodeSense - Static Code Analyzer",
+    des:"The Code Analyzer Web App is a powerful tool designed to analyze Java code files, calculate code complexity, identify syntax errors, and help maintain clean and efficient code.",
+    technology: ["React", "Node.js", "MongoDB"]
   },
   {
-    img: Education02,
-    des: "Sri Lanka Institute of Information Technology",
-    year: "2021 - Present"
+    img: 'https://firebasestorage.googleapis.com/v0/b/test-reactnative-9bda1.appspot.com/o/CeyLaundry.png?alt=media&token=f10859ec-bd58-415b-a5a0-d152fa84a878',
+    title: "CeyLaundry - Onine Laundry Service",
+    des:"The project aims to provide a convenient platform for users to schedule and manage their laundry services online.",
+    technology: ["React", "Node.js", "MongoDB"]
   },
   {
-    img: Education01,
-    des: "Kg/Swarna Jayanthi National College",
-    details: "G.C.E Ordinary Level - 2016 <br/>G.C.E Advanced Level( Biology, Physics, Chemistry) - 2020"
+    img: 'https://firebasestorage.googleapis.com/v0/b/test-reactnative-9bda1.appspot.com/o/DigitMaster.jpg?alt=media&token=bff54acd-49f1-4a64-aa3e-44acdd6455b6',
+    title: "CodeSense - Static Code Analyzer",
+    des:"The Code Analyzer Web App is a powerful tool designed to analyze Java code files, calculate code complexity, identify syntax errors, and help maintain clean and efficient code.",
+    technology: ["React", "Node.js", "MongoDB"]
   },
   {
-    img: Education02,
-    des: "Sri Lanka Institute of Information Technology",
-    year: "2021 - Present"
+    img: 'https://firebasestorage.googleapis.com/v0/b/test-reactnative-9bda1.appspot.com/o/blood.jpg?alt=media&token=77bf1d50-249d-4e39-8aa6-1598403e52f0',
+    title: "CodeSense - Static Code Analyzer",
+    des:"The Code Analyzer Web App is a powerful tool designed to analyze Java code files, calculate code complexity, identify syntax errors, and help maintain clean and efficient code.",
+    technology: ["React", "Node.js", "MongoDB"]
   },
   {
-    img: Education02,
-    des: "Sri Lanka Institute of Information Technology",
-    year: "2021 - Present"
+    img: 'https://firebasestorage.googleapis.com/v0/b/test-reactnative-9bda1.appspot.com/o/cakefantasy.png?alt=media&token=61cd506f-3285-4ce0-aa1c-19d06e4a9022',
+    title: "CodeSense - Static Code Analyzer",
+    des:"The Code Analyzer Web App is a powerful tool designed to analyze Java code files, calculate code complexity, identify syntax errors, and help maintain clean and efficient code.",
+    technology: ["React", "Node.js", "MongoDB"]
   },
   {
-    img: Education02,
-    des: "Sri Lanka Institute of Information Technology",
-    year: "2021 - Present"
+    img: 'https://firebasestorage.googleapis.com/v0/b/test-reactnative-9bda1.appspot.com/o/little%20love.jpg?alt=media&token=cb1ac9ca-a915-43de-a853-3160c8cb472b',
+    title: "LittleLove - Mother & Baby Health Management Mobile Application",
+    des:"The app serves as a powerful tool for mothers to manage their clinic and vaccine details. It also provides midwives with a means to track their patient's health information. ",
+    technology: ["React", "Node.js", "MongoDB"]
   },
 ];
-// export const brands = [
-//   { img: bmw },
-//   { img: honda },
-//   { img: isuzu },
-//   { img: suzuki },
-//   { img: mitsubishi },
-//   { img: mazda },
-//   { img: nissan },
-//   { img: toyota },
-// ];
 
 export const headerItems = [
   {

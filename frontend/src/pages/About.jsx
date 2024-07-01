@@ -46,7 +46,7 @@ const About = ({ scrollRefs }) => {
                   <div
                     className="w-[100%] rounded-lg shadow my-5"
                     style={{
-                      backdropFilter: "blur(10px)",
+                      backdropFilter: "blur(50px)",
                       background: "rgba(255, 255, 255, 0.03)",
                       border: "1px solid rgba(255, 255, 255, 0.2)",
                     }}
