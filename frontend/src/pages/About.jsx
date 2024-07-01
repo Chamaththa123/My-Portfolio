@@ -29,7 +29,7 @@ const About = ({ scrollRefs }) => {
               {tabs.map((tab, index) => (
                 <button
                   key={index}
-                  className={`flex-1 py-2 px-4 text-center font-semibold w-10 rounded-full border ${
+                  className={`flex-1 py-2 px-4 text-center font-semibold text-white w-10 rounded-full border ${
                     activeTab === index
                       ? "border-[#5924a8] bg-[#5924a8] text-white shadow-md shadow-[#8f68c9]"
                       : " border-[#5924a8] text-[#5924a8] "
